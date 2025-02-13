@@ -27,8 +27,8 @@ Esto garantiza que la carpeta **www** se haya configurado automáticamente para 
 Después de instalar las dependencias de capacitor agrega las plataformas móbiles a la aplicación:
 
 ```bash
-$ ionic capacitor add android
-$ ionic capacitor add ios
+$ npx cap add android
+$ npx cap add ios
 ```
 
 Ambas plataformas nativas se agregan a nivel raiz del proyecto. Estos son proyectos nativos separados que pueden ser considerados parte de la aplicación y pueden ser incluidos como parte del versionamiento de código. 
